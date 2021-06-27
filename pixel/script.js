@@ -1,7 +1,7 @@
 const cor = document.querySelector('#pixel-board');
 const divMain = document.querySelector('#color-palette');
 const botaoClear = document.querySelector('#clear-board');
-const ButaoSort = document.querySelector('#random-cor');
+const botaoSort = document.querySelector('#random-cor');
 const quadro = document.querySelectorAll('.pixel');
 const entraNum = document.querySelector('#generate-board');
 botaoClear.innerHTML = 'Limpar';
@@ -126,7 +126,7 @@ function clear() {
 
 
 botaoClear.addEventListener('click', clear);
-ButaoSort.addEventListener('click', coresF);
+botaoSort.addEventListener('click', coresF);
 entraNum.addEventListener('click', tabela);
 
 valorP();//
